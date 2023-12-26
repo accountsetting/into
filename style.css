@@ -121,5 +121,18 @@ form button:active { transform: scale(.97); }
 }
 .bottom:hover { background-color: #dde2d1; }
 
-.next-form { transform: translateX(-50%); }
+.next-form { 
+    transform: translateX(-50%); 
+}
 
+#signInOptions button {
+    font-size: 13.5px; /* El tamaño de fuente original */
+    max-width: 300px; /* Ajusta el ancho máximo del botón según sea necesario */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+
+
+    
+}
+#signInOptions {
+    text-align: center; /* Centrar el contenido del contenedor */
+}
